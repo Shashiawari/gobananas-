@@ -1,0 +1,125 @@
+@font-face {
+  font-family: wild;
+  src: url(./fonts/Wild\ Trails.ttf);
+}
+
+@font-face {
+  font-family: biko;
+  src: url(./fonts/Biko_Regular.otf);
+}
+* {
+  overflow: hidden;
+}
+body {
+  color: white;
+  background-image: url("https://fox40.com/wp-content/uploads/sites/13/2021/11/GettyImages-1227327684.jpg?strip=1");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+.App{
+  background-color: rgba(0, 0, 0, 0.332);
+  height: 100vh;
+}
+
+.nav-brand {
+  font-family: biko;
+  color: white;
+  font-size: 20px;
+}
+
+.out {
+  height: 30vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 12px;
+}
+
+label {
+  text-transform: uppercase;
+  font-family: biko;
+  font-weight: 900;
+  margin-left: 10px;
+  font-size: 20px;
+}
+
+::placeholder {
+  font-size: biko;
+}
+
+input {
+  color: white;
+  font-family: biko;
+  background-color: #00000000;
+  backdrop-filter: blur(15px);
+  padding: 20px;
+  border-radius: 20px;
+  outline: none;
+}
+
+.main {
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cent {
+  padding: 20px;
+  height: 30vh;
+  justify-content: center;
+  align-items: center;
+  font-family: biko;
+  background-color: #00000000;
+  backdrop-filter: blur(14px);
+  border-radius: 30px;
+}
+
+
+.h{
+  background-color: #00000000;
+  backdrop-filter: blur(15px);
+  margin: 30px;
+  padding: 20px;
+  font-family: biko;
+  border-radius: 30px;
+}
+
+.h svg{
+  margin: 15px;
+}
+
+button{
+  padding: 20px;
+  border-radius: 20px;
+  font-family: biko;
+  background-color: orangered;
+  color: white;
+  font-weight: bolder;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.error-message{
+ 
+  background-color: rgba(0, 0, 0, 0.367);
+  backdrop-filter: 15px;
+  height: 30vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: biko;
+  text-transform: uppercase;
+  font-size: 48px;
+
+}
