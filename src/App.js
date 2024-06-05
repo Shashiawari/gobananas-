@@ -92,6 +92,8 @@ function App() {
           </div>
         </div>
       )}
+              <p className="text-center d-lg-none d-sm-block" style={{fontFamily:"biko"}}>scroll Down</p>
+
     </div>
   );
 }
