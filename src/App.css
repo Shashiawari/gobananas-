@@ -68,10 +68,12 @@ input {
 }
 
 .main {
-  height: 60vh;
+  height: 50vh;
   display: flex;
   justify-content: center;
   align-items: center;
+  overflow-y: scroll;
+  scrollbar-width: none;
 }
 
 .cent {
@@ -122,4 +124,10 @@ button{
   text-transform: uppercase;
   font-size: 48px;
 
+}
+
+@media (max-width:1000px) {
+  .cent{
+    margin-top: 200px;
+  }
 }

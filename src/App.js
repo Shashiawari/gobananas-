@@ -43,9 +43,9 @@ function App() {
       </div>
       {error && <p className="error-message">{error}</p>}
       {data && (
-        <div className="main">
-          <div className="row d-flex justify-content-center align-items-center">
-            <div className="col-6">
+        <div className="main ">
+          <div className="row d-flex justify-content-center align-items-center   " >
+            <div className="col-12 col-md-6  col-lg-6">
               <div className="cent row">
                 <h2>{data.name}</h2>
                 <div className="col-6">
@@ -61,7 +61,7 @@ function App() {
                 </div>
               </div>
             </div>
-            <div className="col-6">
+            <div className="col-12 col-md-6 col-lg-6">
               <div className="h mx-5">
                 <h3>
                   <img
